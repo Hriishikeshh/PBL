@@ -112,7 +112,13 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
 }
+
+.card:hover {
+    transform: scale(0.9);
+  }
 
 .card img {
     width: 100%;
@@ -157,7 +163,13 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
 }
+
+.siddhi_card:hover {
+    transform: scale(0.9);
+  }
 
 .siddhi_card_img {
     width: 100%;
@@ -223,7 +235,13 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
 }
+
+.btt:hover {
+    transform: scale(0.9);
+  }
 
 .btt a {
     color: white;
