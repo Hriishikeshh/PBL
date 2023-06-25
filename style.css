@@ -149,7 +149,16 @@
     border-radius: 4px;
     width: 90%;
     height: 90%;
+    text-decoration: none;
+    transition: background-image 2s ease-out; 
+    background-position: 0% 100%; /* Start the gradient from the left */
+    background-image: linear-gradient(to right, black, #ffffff);
 }
+
+
+.card-link:hover {
+    background-position: 100% 0%; /* Replace with your desired gradient colors */
+  }
 
 .space {
     width: 200px;
@@ -203,29 +212,34 @@
     width: 30%;
 }
 
+
 .siddhi_card_center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.loaction2 {
-    background-color: orange;
+.location2 {
     border-radius: 50px;
     overflow: auto;
-
+    
 }
 
 .body_bgimg {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(white, orange);
+    background-color: #f37022;
+    background-image: linear-gradient(62deg, #f37022 0%, #ebbc3b 100%);
+    background-size: 100% 200%;
 }
+
 
 .body_bgimg1 {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(orange, white);
+    background-color: #f37022;
+    background-image: linear-gradient(62deg, #f37022 0%, #ebbc3b 100%);
+    background-size: 100% 200%;
 }
 
 .btt {

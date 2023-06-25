@@ -143,7 +143,11 @@
 .spacer {
 
     float: left;
+    transition: transform 0.3s;
+}
 
+.spacer:hover{
+      transform: scale(0.9);
 }
 
 .item3 {

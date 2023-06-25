@@ -133,16 +133,20 @@
 .spacer {
 
     float: left;
+    transition: transform 0.3s;
+}
 
+.spacer:hover{
+      transform: scale(0.9);
 }
 
 .item3 {
     width: 300px;
-
     background-color: #f1f1f1;
     border-radius: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    
 }
 
 .item3 img {
@@ -213,7 +217,13 @@ ul p {
     justify-content: center;
     text-align: center;
     align-items: center;
+    transition: transform 0.3s;
 }
+
+.btt:hover{
+      transform: scale(0.9);
+}
+
 
 .btt a {
     color: white;
